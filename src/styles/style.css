@@ -1,5 +1,7 @@
 :root {
-  --primary: #FE8A02;
+  --Primary: #FE8A02;
+  --Primary-Dark: #42413C;
+  --Text: #2A2626;
 }
 @font-face {
   font-weight: 400;
@@ -24,7 +26,10 @@ body, html {
   padding: 0;
   height: 100%;
 }
-h1, p, h2 {
+a {
+  text-decoration: none;
+}
+h1, p, h2, h3 {
   margin: 0;
 }
 .container {
@@ -48,7 +53,7 @@ h1, p, h2 {
   z-index: -1;
 }
 .header__title {
-  color: var(--primary);
+  color: var(--Primary);
   font-family: 'Neucha';
   font-size: 72px;
   font-style: normal;
@@ -100,7 +105,7 @@ h1, p, h2 {
 .header__descr-and-button a{
   margin-top: 47px;
   padding: 12px 24px;
-  background: var(--primary);
+  background: var(--Primary);
   display: inline-block;
   color: #FFF;
   font-family: 'Open Sans';
@@ -149,7 +154,7 @@ h1, p, h2 {
 .header__descr-and-button a{
   margin-top: 47px;
   padding: 12px 24px;
-  background: var(--primary);
+  background: var(--Primary);
   display: inline-block;
   color: #FFF;
   font-family: 'Open Sans';
@@ -205,4 +210,63 @@ h1, p, h2 {
 .video iframe {
   width: 919px;
   height: 569px;
+}
+.distortion__items {
+  display: flex;
+  padding-top: 216px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.distortion__item {
+  padding: 24px;
+  width: 350px;
+  height: 348px;
+  display: block;
+  background: #F5F4F0;
+  margin-bottom: 20px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+.distortion__title {
+  width: 350px;
+  height: 323px;
+  color: #FE8A02;
+  font-family: 'Neucha';
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 62.4px */
+}
+.distortion__title span {
+  color: #FFF;
+}
+.digit {
+  width: 23px;
+  height: 64px;
+  color: var(--Primary-Dark);
+  font-family: 'Neucha';
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.item__title {
+  color: var(--Primary, #FE8A02);
+/* Title 3 */
+  font-family: 'Neucha';
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 40.8px */
+  margin-bottom: 16px;
+}
+.item_descr {
+  color: var(--Text, #2A2626);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
 }
