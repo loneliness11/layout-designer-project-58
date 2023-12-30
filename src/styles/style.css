@@ -24,7 +24,7 @@ body, html {
   padding: 0;
   height: 100%;
 }
-h1, p {
+h1, p, h2 {
   margin: 0;
 }
 .container {
@@ -160,4 +160,49 @@ h1, p {
   text-transform: uppercase;
   text-decoration: none;
   width: 148px;
+}
+
+.video {
+  height: 814px;
+}
+.distortion {
+  height: 991px;
+  background-color: #42413C;
+}
+.video__title {
+  color: #2A2626;
+  text-align: center;
+  font-family: 'Neucha';
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 120% */
+  padding-top: 100px;
+  margin-bottom: 27px;
+}
+.video__title span {
+  color: var(--primary);
+}
+.video__descr {
+  color: #212529;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-bottom: 30px;
+}
+.video__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.video {
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+.video iframe {
+  width: 919px;
+  height: 569px;
 }
