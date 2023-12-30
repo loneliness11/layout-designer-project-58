@@ -2,6 +2,8 @@
   --Primary: #FE8A02;
   --Primary-Dark: #42413C;
   --Text: #2A2626;
+  --Secondary: #908D8B;
+  --Background-Dark: #B09A81;
 }
 @font-face {
   font-weight: 400;
@@ -265,6 +267,86 @@ h1, p, h2, h3 {
 .item_descr {
   color: var(--Text, #2A2626);
   font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}
+.effect {
+  height: 960px;
+  position: relative;
+}
+.effect:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('../images/background.png') lightgray 50% / contain no-repeat;
+  opacity: 0.06;
+  z-index: -1;
+}
+.effect__block1 {
+  display: flex;
+  padding-top: 100px;
+}
+.effect__block1-wrapper {
+  padding-left: 30px;
+}
+.effect__block1-subtitle {
+  color: var(--Secondary, #908D8B);
+  font-family: 'Neucha';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px; /* 120% */
+}
+.effect__block1-title {
+  color: var(--Text, #2A2626);
+  font-family: 'Neucha';
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 120% */
+  padding-bottom: 30px;
+}
+.effect__block1-descr {
+  color: var(--Text, #2A2626);
+  font-family: 'Neucha';
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40.8px; /* 120% */
+}
+.effect__img {
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
+}
+.effect__title {
+  color: #FFF;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16.8px; /* 120% */
+  text-transform: uppercase;
+  margin-top: 100px;
+  background: var(--Background-Dark, #B09A81);
+  width: 1110px;
+  height: 26px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.effect__block2 {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+.effect__block2 p {
+  width: 540px;
+  color: var(--Text, #2A2626);
+  font-family: 'Open Sans';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
