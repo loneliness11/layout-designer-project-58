@@ -514,3 +514,120 @@ h1, p, h2, h3 {
 .optimization__img {
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
 }
+footer {
+  min-height: 581px;
+  padding: 100px 0;
+}
+.footer__block {
+  display: flex;
+  background: var(--Primary-Dark, #42413C);
+  min-height: 190px;
+  padding: 55px;
+  justify-content: space-between;
+}
+.footer__title {
+  color: #FFF;
+  font-family: 'Neucha';
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 40.8px */
+}
+.mail {
+  color: #FFF;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+}
+.ruls {
+  color: #FFF;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 19.2px */
+}
+.ruls a {
+  text-decoration-line: underline;
+  color: #FFF;
+}
+.input-container {
+  width: 423px;
+  height: 50px;
+  display: flex;
+}
+input[type="text"] {
+  width: 100%; /* Заполнить 100% ширины формы */
+  height: 100%; /* Заполнить 100% высоты формы */
+  border: none;
+  padding: 0;
+  box-sizing: border-box; /* Учитывать границы и отступы внутри ширины и высоты */
+}
+input::placeholder {
+  color: #757575;
+  font-family: 'Open Sans';
+  font-size: 13.1px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 20.96px */
+  opacity: 0.2;
+  padding: 15px;
+  padding-right: 0;
+  margin-top: 9px;
+}
+.submit-button {
+  width: 70px;
+  height: 50px;
+  background: #FE8A02;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+}
+.submit-button::before {
+  content: '';
+  position: absolute;
+  background-image: url('../images/send.svg');
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer__wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 76px;
+}
+.footer__descr1, .footer__descr2 {
+  margin-bottom: 16px;
+}
+.footer__wrapper2 a{
+  color: #007DC1;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration-line: underline;
+}
+.footer__descr1 {
+  color: #000;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+}
+.footer__descr2 span {
+  color: #000;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+}
