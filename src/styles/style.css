@@ -446,6 +446,9 @@ h1, p, h2, h3 {
   font-weight: 400;
   line-height: 25.6px; /* 160% */
 }
+.optimization__block2-descr {
+  width: 540px;
+}
 .distortion2 {
   /* min-height: 880px; */
   position: relative;
@@ -500,4 +503,14 @@ h1, p, h2, h3 {
 .distortion2__img {
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
   margin-right: 30px;
+}
+.hyperbolic {
+  min-height: 937px;
+  position: relative;
+  background-color: var(--Brown, #B09A81);
+  z-index: 0;
+  padding: 100px 0;
+}
+.optimization__img {
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
 }
