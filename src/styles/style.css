@@ -139,11 +139,7 @@ h2 {
 }
 
 .video {
-  height: 814px;
-}
-.distortion {
-  height: 991px;
-  background-color: #42413C;
+  height: 807px;
 }
 .video__title {
   color: #2A2626;
@@ -181,18 +177,20 @@ h2 {
   height: 569px;
 }
 .distortion {
+  background-color: #42413C;
   padding-top: 84px;
 }
 .distortion__items {
   display: flex;
-  padding-top: 100px;
+  margin-top: 116px;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 80px;
 }
 .distortion__item {
   padding: 24px;
   width: 350px;
-  height: 348px;
+  min-height: 323px;
   display: block;
   background: #F5F4F0;
   margin-bottom: 20px;
@@ -221,7 +219,7 @@ h2 {
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 1;
   margin-bottom: 40px;
 }
 .item__title {
