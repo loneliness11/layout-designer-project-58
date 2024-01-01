@@ -157,7 +157,7 @@ h2 {
   margin-bottom: 30px;
 }
 .video__title span {
-  color: var(--primary);
+  color: var(--Primary);
 }
 .video__descr {
   color: #212529;
@@ -182,9 +182,12 @@ h2 {
   width: 919px;
   height: 569px;
 }
+.distortion {
+  padding-top: 100px;
+}
 .distortion__items {
   display: flex;
-  padding-top: 216px;
+  padding-top: 100px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
