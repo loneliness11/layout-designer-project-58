@@ -92,7 +92,7 @@ h2 {
 .header__img {
   position: absolute;
   height: 525px;
-  top: 55px;
+  top: -55px;
   right: -270px;
   z-index: -1;
 }
@@ -137,13 +137,6 @@ h2 {
   text-transform: uppercase;
   text-decoration: none;
   width: 148px;
-}
-.header__img {
-  position: absolute;
-  height: 525px;
-  top: 55px;
-  right: -270px;
-  z-index: -1;
 }
 .header__descr {
   display: flex;
