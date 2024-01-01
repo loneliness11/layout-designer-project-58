@@ -101,7 +101,7 @@ h2 {
   margin-top: 201px;
 }
 .header__descr p {
-  width: 540px;
+  min-width: 540px;
   color: #2A2626;
   font-family: 'Open Sans';
   font-size: 16px;
@@ -125,48 +125,6 @@ h2 {
 /*  */
 .header__descr-and-button a{
   margin-top: 40px;
-  padding: 12px 24px;
-  background: var(--Primary);
-  display: inline-block;
-  color: #FFF;
-  font-family: 'Open Sans';
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 160%; /* 25.6px */
-  text-transform: uppercase;
-  text-decoration: none;
-  width: 148px;
-}
-.header__descr {
-  display: flex;
-  margin-top: 201px;
-}
-.header__descr p {
-  width: 540px;
-  color: #2A2626;
-  font-family: 'Open Sans';
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25.6px; /* 160% */
-}
-.header__descr p:first-child {
-  margin-right: 30px;
-}
-.header__url {
-  display: inline-block;
-}
-.header__descr-and-button {
-  display: flex;
-  flex-direction: column;
-}
-.header__descr-and-button p:first-child {
-  padding-bottom: 20px;
-}
-/*  */
-.header__descr-and-button a{
-  margin-top: 47px;
   padding: 12px 24px;
   background: var(--Primary);
   display: inline-block;
